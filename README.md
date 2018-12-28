@@ -1,0 +1,2 @@
+# Mybaidumap
+本项目是为了记录课程中的一个安卓开发作业：做一个安卓端的地图应用，要求可以实现地图定位功能，输入一个地址后，可以在地图上定位到这个地址并给出经纬度（使用 Android Studio 开发），博客地址：[https://www.cnblogs.com/yunkaiL/p/10134456.html](https://www.cnblogs.com/yunkaiL/p/10134456.html "https://www.cnblogs.com/yunkaiL/p/10134456.html")

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2"
+        android:visibility="gone"
+        >
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:hint="地址"
+            android:id="@+id/editText_site" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="前往"
+            android:id="@+id/button_sitesearch"/>
+    </LinearLayout>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+</LinearLayout>

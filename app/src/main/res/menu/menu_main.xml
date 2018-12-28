@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.mymap.MainActivity">
+
+    <item
+        android:id="@+id/menu_item_mylocation"
+        android:title="我的位置"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_sitesearch"
+        android:title="地址搜索"
+        app:showAsAction="never" />
+</menu>
